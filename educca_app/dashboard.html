@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/dashboard.css" />
+    <script defer src="js/main.js"></script>
+</head>
+<body onload="mostrarUsuario()">
+    <header class="topbar">
+        <div class="logo">Mi Plataforma</div>
+        <nav class="topnav">
+            <a href="dashboard.html" class="active">Dashboard</a>
+            <a href="cursos.html">Mis Cursos</a>
+            <a href="perfil.html">Perfil</a>
+            <a href="configuracion.html">Configuración</a>
+            <a href="dispositivo.html">Dispositivo</a>
+        </nav>
+        <div class="usuario">Hola, <span class="usuario-nombre">Estudiante</span></div>
+    </header>
+    <main class="main-content">
+        <section class="progress">
+            <h3>Progreso General</h3>
+            <div class="progress-circle">85%</div>
+            <p>Estás avanzando muy bien. ¡Sigue así!</p>
+        </section>
+        <section class="prediction">
+            <h3>Predicción de Notas</h3>
+            <div class="imagen-placeholder">[Espacio para gráfico]</div>
+            <p class="status"><span class="approved">¡Aprobado!</span></p>
+            <p class="tip">Recuerda repasar temas clave antes de los exámenes.</p>
+        </section>
+    </main>
+</body>
+</html>
