@@ -1,0 +1,15 @@
+{
+    "name": "ffaa/aplicacion-confidencial",
+    "description": "Sistema de gestion de archivos para las FFAA del Perù",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "abraham12802",
+            "email": "abraham.caro@tecsup.edu.pe"
+        }
+    ],
+    "require": {
+        "nesbot/carbon": "^3.10"
+    }
+}
